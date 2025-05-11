@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>DATA_TITLE</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.php">Mahasiswa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">DATA_TITLE</h4>
+          </div>
+          <div class="card-body">
+            <form action="DATA_FORM_ACTION" method="post">
+              <input type="hidden" name="id" value="DATA_ID">
+              
+              <div class="form-group row">
+                <label for="nim" class="col-sm-2 col-form-label">NIM</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nim" name="nim" value="DATA_NIM" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nama" name="nama" value="DATA_NAMA" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label for="tempat" class="col-sm-2 col-form-label">Tempat Lahir</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="tempat" name="tempat" value="DATA_TEMPAT" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label for="tl" class="col-sm-2 col-form-label">Tanggal Lahir</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="tl" name="tl" value="DATA_TL" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Jenis Kelamin</label>
+                <div class="col-sm-10">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="laki" value="Laki-laki" DATA_GENDER_L>
+                    <label class="form-check-label" for="laki">Laki-laki</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="perempuan" value="Perempuan" DATA_GENDER_P>
+                    <label class="form-check-label" for="perempuan">Perempuan</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" name="email" value="DATA_EMAIL" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <label for="telp" class="col-sm-2 col-form-label">Telepon</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="telp" name="telp" value="DATA_TELP" required>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                  <button type="submit" name="submit" class="btn btn-primary">DATA_BUTTON</button>
+                  <!-- <a href="../index.php" class="btn btn-primary">DATA_BUTTON</a> -->
+                  <a href="../index.php" class="btn btn-secondary">Kembali</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
