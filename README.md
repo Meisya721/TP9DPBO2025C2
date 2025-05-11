@@ -13,4 +13,9 @@ Jika pengguna ingin memeriksa informasi secara lebih lengkap, mereka dapat mengk
 
 Apabila pengguna memilih untuk menghapus data, sistem akan menampilkan konfirmasi penghapusan. Pengguna diminta untuk memastikan bahwa data benar-benar ingin dihapus, sebagai bentuk pencegahan. Setelah konfirmasi, data akan terhapus dari sistem, dan pengguna akan kembali ke halaman utama.
 
+# Screen record
+Uploading New Tab - Google Chrome 2025-05-11 21-38-08.mp4…
+
+
+
 
